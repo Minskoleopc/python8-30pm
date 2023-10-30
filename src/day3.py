@@ -98,6 +98,15 @@ print(3 != 3 or 4 != 4)
 #not True --- False
 #not False --- True
 
+
+# monday , wednesday , friday , sat , sun  ===>  python  -- 8:30 pm
+# tuesday , thursday ,  sat  , sun         ===>   js     -- 8.00pm
+# 1 pm --- sarika / Mahesh
+# 2 pm --- javascript
+
+
+
+
 print(not(6 == 3))
 print(not (6 == 6))
 
