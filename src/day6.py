@@ -66,9 +66,72 @@ while t5 >= 5:
     print(t5)
     t5 = t5 - 5
 
-# Wed , Fri
-# 11 - 15 ---- 16
-# 9 am (git)
+
+# break with while
+
+# intialization
+#while(condition):
+    # statement
+    # increment / decrement
+
+
+# program 2
+
+g1 = 1
+while g1 < 5:
+    print(g1) # 1 # 2 # 3 # 4
+    g1 = g1 + 1 # 2 # 3 # 4 # 5
+
+# program 3
+g2 = 1
+while g2 <= 5:
+    if(g2 == 3):
+        break
+    print(g2) #1 # 2
+    g2 = g2 + 1 # 2 # 3
+
+# program 4
+g3 = 2
+while(g3 <= 20):
+    print(g3) # 2 # ------- 14
+    if g3 == 14:
+        break
+    g3 = g3 + 2 # 4
+
+# program 5
+g3 = 2
+while(g3 <= 20):
+    if g3 == 14:
+        break
+    print(g3)
+    g3 = g3 + 2
+
+# program 6
+g4 = 6
+while(g4 >= 1):
+    print(g4) #6 # 5 # 4 # 3
+    if g4 == 3:
+        break
+    g4 = g4 - 1 # 5 # 4 # 3
+
+# program 7
+# contine with while
+
+g5 = 1
+while g5 <= 5:
+    if g5 == 3:
+        g5 = g5 + 1 # 4
+        continue
+    print(g5) # 1 # 2 # 4 # 5
+    g5 = g5 + 1 # 2 # 3 # 4 # 6
+
+
+
+
+
+
+
+
 
 
 
