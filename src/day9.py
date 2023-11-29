@@ -80,4 +80,70 @@ print(j)
 print(h)
 
 
+names = ["deepak","sameer","sham"]
+names.pop()
+names.pop(1)
+
+
+# program 2
+numbersB = [44,55,66]
+numberC = numbersB
+numbersB[0] = 999
+print(numbersB)
+print(numberC)
+
+
+# program 3
+numbersV = [11,22,33]
+numberT  = numbersV.copy()
+numberT[1] = 1111
+print(numbersV)
+print(numberT)
+
+
+# program 4
+g = [11,22,33]
+h = [44,55,66]
+g.extend(h)
+print(g)
+print(h)
+
+# program 5
+j = ["pune","mumbai","nashik","wardha"]
+j.insert(2,"goa")
+print(j)
+
+# program 6
+
+fruits = ["mango","apple","chikoo"]
+fruits.append("papaya")
+print(fruits)
+#["mango","apple","chikoo","papaya"]
+
+fruits.sort()
+print(fruits)
+#["apple","chikoo","mango","papaya"]
+
+fruits.reverse()
+#["papaya","mango","chikoo","apple"]
+
+numbers  = [11,22,33,44,55,44]
+q2 = numbers.count(44)
+print(q2)
+
+for x in range(len(numbers)):
+    print(x)
+    print(numbers[x])
+
+
+
+
+
+
+
+
+
+
+
+
 
