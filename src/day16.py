@@ -59,3 +59,12 @@ print(c1)
 
 q1 = animals.index("tiger")
 print(q1)
+
+
+# various ways to import functions and methods in python
+
+# what are modules
+# what are packages , how to pacakages
+# what are libraries and how to create libraries
+
+# how to import module , packages and libraries
