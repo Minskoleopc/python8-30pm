@@ -1,10 +1,10 @@
 # program 1
-# f1 = open('virat-kohli.png','rb')
-# f2 = open('virat2.png','wb')
-# bytes = f1.read()
-# f2.write(bytes)
-# f1.close()
-# f2.close()
+f1 = open('virat-kohli.png','rb')
+f2 = open('virat2.png','wb')
+bytes = f1.read()
+f2.write(bytes)
+f1.close()
+f2.close()
 
 # program 2
 
